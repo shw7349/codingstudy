@@ -20,7 +20,7 @@ public class 소금폭탄 {
         int dropSecondAmount = dropHour * 3600 + dropMinute * 60 + dropSecond;
 
         int needSecondAmount = dropSecondAmount - currentSecondAmount;
-        if(needSecondAmount < 0)
+        if(needSecondAmount <= 0)
             needSecondAmount += 24 * 3600;
         
         int needHour = needSecondAmount / 3600;
