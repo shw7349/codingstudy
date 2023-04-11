@@ -1,7 +1,7 @@
 import java.util.Scanner;
 class 문서검색 {
     
-    /*public static void main(String[] args) {
+    public static void main(String[] args) {
         Scanner sc  = new Scanner(System.in);
         String doc  = sc.nextLine();
         String word = sc.nextLine();
@@ -16,8 +16,9 @@ class 문서검색 {
             startIndex = findIndex + word.length();    
         }
         System.out.println(count);
-    }*/
+    }
 
+    /*
     public static void main(String[] args) {
         Scanner sc  = new Scanner(System.in);
         String doc  = sc.nextLine();
@@ -28,4 +29,5 @@ class 문서검색 {
         int count = length / word.length();
         System.out.println(count);
     }
+    */
 }
