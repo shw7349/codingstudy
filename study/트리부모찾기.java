@@ -17,7 +17,7 @@ public class 트리부모찾기 {
             for (int i = 0; i < n - 1; i++) {
                 int n1 = sc.nextInt() - 1;
                 int n2 = sc.nextInt() - 1;
-                tree.get(n1).add(n2);
+                tree.get(n1).add(n2); 
                 tree.get(n2).add(n1);
             }
 
