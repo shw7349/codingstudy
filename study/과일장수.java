@@ -7,6 +7,7 @@ class Solution {
         for(int i=score.length-1; i>=0; i--){
             if((score.length - i ) % m == 0) answer += score[i] * m;
         }
+        
         return answer;
     }
 }
