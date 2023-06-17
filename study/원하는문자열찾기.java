@@ -10,7 +10,6 @@ class Solution {
         }else{
             answer = 0;
         }
-        
         return answer;
     }
 }
